@@ -1,0 +1,34 @@
+/* ---------- Typography & comfortable reading ---------- */
+:root{
+  --mm-font-body: "Inter", system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+  --mm-font-head: "Inter", system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+}
+html, body { font-family: var(--mm-font-body); }
+h1, h2, h3, .masthead__menu-item--lg a { font-family: var(--mm-font-head); }
+.page__content { line-height: 1.7; font-size: 18px; }
+
+/* Wider main column (pairs with `classes: wide` you already set) */
+.page { max-width: 1100px; margin: 0 auto; }
+
+/* ---------- Softer header & nav ---------- */
+.masthead { border-bottom: 1px solid rgba(0,0,0,.06); }
+.greedy-nav { padding: 0.6rem 1rem; }
+.greedy-nav .visible-links > li > a { font-weight: 600; }
+
+/* ---------- Tidy sidebar (author card) ---------- */
+.author__avatar img { border-radius: 14px; width: 160px; }
+.author__urls-wrapper .btn { display: none; }    /* hides big “Follow” button */
+
+/* ---------- Cleaner list items (research/publications/talks) ---------- */
+.archive__item {
+  border: 1px solid rgba(0,0,0,0.06);
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 14px;
+  background: #fff;
+  transition: transform 80ms ease-in-out;
+}
+.archive__item:hover { transform: translateY(-2px); }
+
+/* ---------- Nicer link underline ---------- */
+a { text-underline-offset: 2px; text-decoration-thickness: 1.5px; }
