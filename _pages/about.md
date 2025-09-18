@@ -1,12 +1,18 @@
 ---
+layout: single
 permalink: /
-excerpt: "About me"
-author_profile: true
-redirect_from:
-  - /about/
-  - /about.html
+author_profile: false
 ---
 
-Welcome! I am a 6th year PhD student in Economics at Boston University. I study economic history and labor economics, with a focus on education and health.
+<!-- This wrapper guarantees centering on the homepage -->
+<div class="home-hero-wrap" style="max-width: 840px; margin: 0 auto;">
 
-I will be on the job market in AY 2025-26.
+  <div class="home-hero">
+    <img src="{{ '/images/briskin_headshot.png' | relative_url }}" alt="Michael Briskin" class="home-hero__photo">
+    <div class="home-hero__text">
+      <p>Welcome! I am a PhD student in Economics at Boston University. I study economic history and labor economics, with a focus on education and health.</p>
+      <p>I will be on the job market in AY 2025–26.</p>
+    </div>
+  </div>
+
+</div>

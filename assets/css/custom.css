@@ -1,34 +1,112 @@
-/* ---------- Typography & comfortable reading ---------- */
+/* ---- Base type ---- */
 :root{
-  --mm-font-body: "Inter", system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
-  --mm-font-head: "Inter", system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+  --font-sans:"Inter",system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif;
 }
-html, body { font-family: var(--mm-font-body); }
-h1, h2, h3, .masthead__menu-item--lg a { font-family: var(--mm-font-head); }
-.page__content { line-height: 1.7; font-size: 18px; }
+html,body{ font-family:var(--font-sans); }
+.page__content{ font-size:18px; line-height:1.75; }
 
-/* Wider main column (pairs with `classes: wide` you already set) */
-.page { max-width: 1100px; margin: 0 auto; }
+/* ---- Header/nav light polish ---- */
+.masthead{ border-bottom:1px solid rgba(0,0,0,.08); }
+.greedy-nav{ padding:.7rem 1rem; }
+.greedy-nav .visible-links>li>a{ font-weight:600; }
 
-/* ---------- Softer header & nav ---------- */
-.masthead { border-bottom: 1px solid rgba(0,0,0,.06); }
-.greedy-nav { padding: 0.6rem 1rem; }
-.greedy-nav .visible-links > li > a { font-weight: 600; }
-
-/* ---------- Tidy sidebar (author card) ---------- */
-.author__avatar img { border-radius: 14px; width: 160px; }
-.author__urls-wrapper .btn { display: none; }    /* hides big “Follow” button */
-
-/* ---------- Cleaner list items (research/publications/talks) ---------- */
-.archive__item {
-  border: 1px solid rgba(0,0,0,0.06);
-  border-radius: 12px;
-  padding: 16px;
-  margin-bottom: 14px;
-  background: #fff;
-  transition: transform 80ms ease-in-out;
+/* ---- Global: no theme sidebar + reclaim width on all pages ---- */
+.page{
+  float:none !important;
+  width:auto !important;
+  max-width:960px;                                      /* 1040px if you prefer wider */
+  margin:0 auto !important;
+  padding-left:0 !important;
 }
-.archive__item:hover { transform: translateY(-2px); }
+.page__inner-wrap,
+.page__content{
+  margin-left:0 !important;
+  padding-left:0 !important;
+}
 
-/* ---------- Nicer link underline ---------- */
-a { text-underline-offset: 2px; text-decoration-thickness: 1.5px; }
+/* ---- Homepage: centered/narrow wrapper so it feels balanced ---- */
+.home-center{
+  max-width:820px;                                      /* adjust 780–900 to taste */
+  margin-left:auto;
+  margin-right:auto;
+}
+
+/* ---- Homepage hero (photo + text) ---- */
+.home-hero{
+  display:grid;
+  grid-template-columns:240px minmax(0,1fr);            /* photo | text */
+  gap:28px;
+  align-items:center;
+  margin:2rem auto 1.75rem;
+}
+.home-hero__photo{
+  width:240px;
+  height:auto;
+  border-radius:14px;
+  box-shadow:0 1px 10px rgba(0,0,0,.08);
+}
+.home-hero__text p{
+  font-size:18px;
+  line-height:1.75;
+  margin:0 0 1rem 0;
+}
+
+/* Ensure the hero uses the wrapper width, not its own */
+.home-center .home-hero{ max-width:none; }
+
+/* Mobile stack */
+@media (max-width:720px){
+  .home-hero{ grid-template-columns:1fr; gap:24px; }
+  .home-hero__photo{ width:100%; max-width:420px; }
+}
+
+/* ---- Lists for research/publications/talks (simple, professional) ---- */
+.archive{ margin-top:1.25rem; }
+.archive__item{ padding:10px 0; border-bottom:1px solid rgba(0,0,0,.06); }
+
+/* ---- Link aesthetics ---- */
+a{ text-underline-offset:2px; text-decoration-thickness:1.5px; }
+
+/* Homepage-only: respect the wrapper width and center */
+.page .home-hero-wrap{
+  max-width: 840px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  display: block;
+}
+
+/* Home hero (photo + text) */
+.home-hero{
+  display: grid;
+  grid-template-columns: 240px minmax(0, 1fr);
+  gap: 28px;
+  align-items: center;
+  margin: 2rem auto 1.75rem;
+}
+.home-hero__photo{
+  width: 240px;
+  height: auto;
+  border-radius: 14px;
+  box-shadow: 0 1px 10px rgba(0,0,0,.08);
+}
+.home-hero__text p{
+  font-size: 18px;
+  line-height: 1.75;
+  margin: 0 0 1rem 0;
+}
+
+/* Mobile stack */
+@media (max-width: 720px){
+  .home-hero{ grid-template-columns: 1fr; gap: 24px; }
+  .home-hero__photo{ width: 100%; max-width: 420px; }
+}
+
+
+/* Inline status note after titles (not bold, italic, in parentheses) */
+.paper h3 .status{
+  font-weight: 400;          /* cancel the h3 bold */
+  font-style: italic;
+  color: rgba(0,0,0,.65);
+  margin-left: .4rem;
+  display: inline;           /* stay inline with the title */
+}
