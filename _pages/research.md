@@ -15,7 +15,7 @@ classes: wide
 <!-- Add details about your works in progress here -->
 <div class="paper">
   <h3>Teacher Supply and Long-Run Student Outcomes: Evidence from World War II
-    <span class="status">(<em>Draft coming soon!</em>)</span>
+    <span class="status">(<em>Job market paper</em>)</span> <a href="/files/Briskin_WWII_teachers.pdf" target="_blank">[PDF]</a>
   </h3>
   <details>
     <summary>Abstract</summary>
@@ -26,8 +26,8 @@ classes: wide
 </div>
 
 <div class="paper">
-  <h3>Women, War, and Weak Instruments: A Re-Reassessment of the Role of World War II on Women’s Labor Supply
-    <span class="status">(<em>Draft coming soon!</em>)</span>
+  <h3>Women, War, and Weak Instruments: A Re-Reassessment of the Role of World War II on Women's Labor Supply
+    <a href="/files/Briskin_WWII_FLFP.pdf" target="_blank">[PDF]</a>
   </h3>
   <details>
     <summary>Abstract</summary>
