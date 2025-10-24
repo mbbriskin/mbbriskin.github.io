@@ -1,0 +1,277 @@
+/* ==========================================================================
+   Custom Modern Styling
+   ========================================================================== */
+
+/* Modern Navigation */
+.masthead {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid $border-color;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+
+  .masthead__menu-item--lg a {
+    font-weight: 600;
+    font-size: 1.25rem;
+    color: $darker-gray;
+
+    &:hover {
+      color: $primary-color;
+    }
+  }
+
+  .masthead__menu-item a {
+    font-weight: 500;
+    color: $text-color;
+    transition: $global-transition;
+
+    &:hover {
+      color: $primary-color;
+    }
+  }
+}
+
+/* Modern Page Layout */
+.page__content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+/* Modern Typography */
+.page__title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: $darker-gray;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+.page__meta {
+  color: $gray;
+  font-size: 0.9rem;
+  margin-bottom: 2rem;
+}
+
+/* Modern Paper/Publication Styling */
+.paper {
+  background: $background-color;
+  border: 1px solid $border-color;
+  border-radius: $border-radius;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: $box-shadow;
+  transition: $global-transition;
+
+  &:hover {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    transform: translateY(-1px);
+  }
+
+  h3 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: $darker-gray;
+    line-height: 1.4;
+  }
+
+  .status {
+    color: $primary-color;
+    font-weight: 500;
+    font-size: 0.9rem;
+  }
+
+  a {
+    color: $primary-color;
+    text-decoration: none;
+    font-weight: 500;
+
+    &:hover {
+      color: $link-color-hover;
+      text-decoration: underline;
+    }
+  }
+}
+
+/* Modern Abstract Styling */
+.abstract {
+  background: $lighter-gray;
+  border-left: 4px solid $primary-color;
+  padding: 1rem;
+  margin-top: 1rem;
+  border-radius: 0 $border-radius $border-radius 0;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: $text-color;
+}
+
+/* Modern Details/Summary Styling */
+details {
+  margin-top: 1rem;
+
+  summary {
+    cursor: pointer;
+    font-weight: 500;
+    color: $primary-color;
+    padding: 0.5rem 0;
+    transition: $global-transition;
+
+    &:hover {
+      color: $link-color-hover;
+    }
+  }
+}
+
+/* Modern Links */
+a {
+  color: $link-color;
+  text-decoration: none;
+  transition: $global-transition;
+
+  &:hover {
+    color: $link-color-hover;
+    text-decoration: underline;
+  }
+}
+
+/* Modern Buttons */
+.btn {
+  background: $primary-color;
+  color: white;
+  border: none;
+  border-radius: $border-radius;
+  padding: 0.75rem 1.5rem;
+  font-weight: 500;
+  transition: $global-transition;
+  box-shadow: $box-shadow;
+
+  &:hover {
+    background: $link-color-hover;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  }
+}
+
+/* Modern Code Styling */
+code {
+  background: $code-background-color;
+  border: 1px solid $border-color;
+  border-radius: 4px;
+  padding: 0.2rem 0.4rem;
+  font-size: 0.9em;
+  color: $darker-gray;
+}
+
+pre {
+  background: $code-background-color;
+  border: 1px solid $border-color;
+  border-radius: $border-radius;
+  padding: 1rem;
+  overflow-x: auto;
+  box-shadow: $box-shadow;
+}
+
+/* Modern Footer */
+.page__footer {
+  background: $lighter-gray;
+  border-top: 1px solid $border-color;
+  margin-top: 4rem;
+  padding: 2rem 0;
+
+  footer {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    text-align: center;
+    color: $gray;
+    font-size: 0.9rem;
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .page__content {
+    padding: 1rem 0.5rem;
+  }
+
+  .page__title {
+    font-size: 2rem;
+  }
+
+  .paper {
+    padding: 1rem;
+  }
+
+  .masthead__menu-item--lg a {
+    font-size: 1.1rem;
+  }
+}
+
+/* Modern Blockquotes */
+blockquote {
+  background: $lighter-gray;
+  border-left: 4px solid $primary-color;
+  border-radius: 0 $border-radius $border-radius 0;
+  padding: 1rem 1.5rem;
+  margin: 2rem 0;
+  font-style: italic;
+  color: $text-color;
+
+  cite {
+    display: block;
+    margin-top: 0.5rem;
+    font-style: normal;
+    font-weight: 500;
+    color: $gray;
+  }
+}
+
+/* Modern Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2rem 0;
+  box-shadow: $box-shadow;
+  border-radius: $border-radius;
+  overflow: hidden;
+
+  th, td {
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid $border-color;
+  }
+
+  th {
+    background: $lighter-gray;
+    font-weight: 600;
+    color: $darker-gray;
+  }
+
+  tr:hover {
+    background: $lighter-gray;
+  }
+}
+
+/* Modern Lists */
+ul, ol {
+  margin: 1.5rem 0;
+  padding-left: 2rem;
+
+  li {
+    margin-bottom: 0.5rem;
+    line-height: 1.6;
+  }
+}
+
+/* Modern Images */
+img {
+  border-radius: $border-radius;
+  box-shadow: $box-shadow;
+  transition: $global-transition;
+
+  &:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  }
+}
