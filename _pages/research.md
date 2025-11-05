@@ -10,7 +10,7 @@ classes: wide
 
 {% include base_path %}
 
-## Works in Progress
+## Working Papers
 
 <!-- Add details about your works in progress here -->
 <div class="paper">
