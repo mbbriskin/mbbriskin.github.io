@@ -42,3 +42,9 @@ classes: wide
 <!-- Add details about your publications here -->
 <p>Beaulieu ND, Chernew ME, Landrum MB, McWilliams JM, Dalton M, Gu A, <strong>Briskin M</strong>, Wu R, El Idrissi ZAE, Machado H, Hicks A, Cutler DM. (2023). Organization and Performance of US Health Systems. JAMA, 329(4), 325-335. <a href="/files/jama_beaulieu_2023_sc_220008_1674242688.01062.pdf" target="_blank">[PDF]</a></p>
 
+## Works in Progress
+
+- Private Health Insurance, Physician Labor Markets, and Health Outcomes in Mid-Twentieth Century America
+- The Effects of Combat on Labor Market Outcomes and Longevity: Evidence from Linked World War II Army Hospital Records (with Yicheng Chen and Vasudha Ramakrishna)
+- Subject-Specific School Investment and Labor Market Outcomes: Evidence from the National Defense Education Act (with Joshua Goodman, Tadeja Gračner, Mingyan Ma, and Christine Mulhern)
+
