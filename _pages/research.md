@@ -40,11 +40,21 @@ classes: wide
 ## Publications
 
 <!-- Add details about your publications here -->
-<p>Beaulieu ND, Chernew ME, Landrum MB, McWilliams JM, Dalton M, Gu A, <strong>Briskin M</strong>, Wu R, El Idrissi ZAE, Machado H, Hicks A, Cutler DM. (2023). Organization and Performance of US Health Systems. JAMA, 329(4), 325-335. <a href="/files/jama_beaulieu_2023_sc_220008_1674242688.01062.pdf" target="_blank">[PDF]</a></p>
+<p>"Organization and Performance of US Health Systems," (with Nancy D. Beaulieu, Michael E. Chernew, J. Michael McWilliams, Mary Beth Landrum, Maurice Dalton, Angela Yutong Gu, Rachel Wu, Zakaria El Amrani, Helene Machado, Andrew L. Hicks, and David M. Cutler) JAMA, (2023) 329(4): 325-335. <a href="/files/jama_beaulieu_2023_sc_220008_1674242688.01062.pdf" target="_blank">[PDF]</a></p>
 
 ## Works in Progress
 
-- Private Health Insurance, Physician Labor Markets, and Health Outcomes in Mid-Twentieth Century America
-- The Effects of Combat on Labor Market Outcomes and Longevity: Evidence from Linked World War II Army Hospital Records (with Yicheng Chen and Vasudha Ramakrishna)
-- Subject-Specific School Investment and Labor Market Outcomes: Evidence from the National Defense Education Act (with Joshua Goodman, Tadeja Gračner, Mingyan Ma, and Christine Mulhern)
+<div class="paper">
+  <h3>Private Health Insurance, Physician Labor Markets, and Health Outcomes in Mid-Twentieth Century America</h3>
+</div>
+
+<div class="paper">
+  <h3>The Effects of Combat on Labor Market Outcomes and Longevity: Evidence from Linked World War II Army Hospital Records</h3>
+  <p>(with Yicheng Chen and Vasudha Ramakrishna)</p>
+</div>
+
+<div class="paper">
+  <h3>Subject-Specific School Investment and Labor Market Outcomes: Evidence from the National Defense Education Act</h3>
+  <p>(with Joshua Goodman, Tadeja Gračner, Mingyan Ma, and Christine Mulhern)</p>
+</div>
 
