@@ -40,7 +40,7 @@ classes: wide
 ## Publications
 
 <!-- Add details about your publications here -->
-<p>"Organization and Performance of US Health Systems," (with Nancy D. Beaulieu, Michael E. Chernew, J. Michael McWilliams, Mary Beth Landrum, Maurice Dalton, Angela Yutong Gu, Rachel Wu, Zakaria El Amrani, Helene Machado, Andrew L. Hicks, and David M. Cutler) JAMA, (2023) 329(4): 325-335. <a href="/files/jama_beaulieu_2023_sc_220008_1674242688.01062.pdf" target="_blank">[PDF]</a></p>
+<p><strong>Organization and Performance of US Health Systems</strong> (with Nancy D. Beaulieu, Michael E. Chernew, J. Michael McWilliams, Mary Beth Landrum, Maurice Dalton, Angela Yutong Gu, Rachel Wu, Zakaria El Amrani, Helene Machado, Andrew L. Hicks, and David M. Cutler) <em>JAMA</em>, (2023) 329(4): 325-335. <a href="/files/jama_beaulieu_2023_sc_220008_1674242688.01062.pdf" target="_blank">[PDF]</a></p>
 
 ## Works in Progress
 
