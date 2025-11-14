@@ -11,7 +11,10 @@ author_profile: false
     <img src="{{ '/images/headshot.jpg' | relative_url }}" alt="Michael Briskin" class="home-hero__photo">
     <div class="home-hero__text">
       <p>Welcome! I am a PhD student in Economics at Boston University. I study economic history and labor economics, with a focus on education and health.</p>
-      <p>I will be on the job market in AY 2025–26.</p>
+
+      <p>I am on the 2025-26 job market.</p>
+
+      <p>My <a href="https://mbbriskin.github.io/files/Briskin_WWII_teachers.pdf">job market paper</a> studies one of the largest teacher labor market shocks in American history and its long-run consequences for students.</p>
     </div>
   </div>
 
