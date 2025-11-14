@@ -46,7 +46,7 @@ classes: wide
 
 <div class="paper">
   <h3>Private Health Insurance, Physician Labor Markets, and Health Outcomes in Mid-Twentieth Century America <details style="display: inline;"><summary style="display: inline; font-weight: normal; cursor: pointer;"></summary>
-    <div class="abstract">
+    <div class="abstract" style="font-weight: normal;">
       Between 1940 and 1960, the share of Americans with health insurance increased from less than one in ten to more than two-thirds. Large employers in manufacturing were most likely to offer these benefits. I use variation in states' pre-war industry mix and firm size, combined with historical data on health insurance premiums, to instrument for the effect of an increase in health insurance on physician labor markets. Preliminary results suggest that greater insurance uptake is associated with increased physician specialization and group practice but a decrease in physicians per capita and lower entry of new physicians. I also estimate the effects of increased access to health insurance on hospital admissions and mortality. This project provides new evidence on how physicians responded to the first widespread adoption of health insurance in the U.S.
     </div>
   </details></h3>
@@ -54,7 +54,7 @@ classes: wide
 
 <div class="paper">
   <h3>The Effects of Combat on Labor Market Outcomes and Longevity: Evidence from Linked World War II Army Hospital Records <details style="display: inline;"><summary style="display: inline; font-weight: normal; cursor: pointer;"></summary>
-    <div class="abstract">
+    <div class="abstract" style="font-weight: normal;">
       We study the labor market and health consequences of wartime injuries during World War II. We link a novel dataset of individual-level WWII Army hospital records to enlistment records, the 1940 and 1950 Censuses, and Social Security mortality data to estimate the effects of combat on education, labor market outcomes, and longevity. The hospital records contain detailed diagnostic and treatment information, allowing us to distinguish the long-run effects of specific injuries and illnesses. We exploit variation in enlistment date, deployment timing, and deployment location to develop an instrument for combat exposure. This project will provide new causal evidence on the labor and health costs of combat from the largest military mobilization in American history.
     </div>
   </details></h3>
@@ -63,7 +63,7 @@ classes: wide
 
 <div class="paper">
   <h3>Subject-Specific School Investment and Labor Market Outcomes: Evidence from the National Defense Education Act <details style="display: inline;"><summary style="display: inline; font-weight: normal; cursor: pointer;"></summary>
-    <div class="abstract">
+    <div class="abstract" style="font-weight: normal;">
       We evaluate the long-run effects of school infrastructure spending financed by Title III of the National Defense Education Act of 1958. The program funded new construction and renovation for science, mathematics, and foreign language facilities in K-12 schools. We exploit variation across states in the share of funds used for each of these subjects and the overall allotment for each state. Using a difference-in-differences design that compares cohorts exposed to NDEA projects during school age to slightly older, unexposed cohorts, we study how targeted infrastructure shaped college major choice, occupational sorting, and earnings.
     </div>
   </details></h3>
